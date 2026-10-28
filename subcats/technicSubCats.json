@@ -1,0 +1,33 @@
+{
+  "sortType": "subcategories",
+  "Liftarms & Beams": [
+    "Technic",
+    "Technic, Liftarm",
+    "Technic, Liftarm, Decorated",
+    "Technic, Brick",
+    "Technic, Plate"
+  ],
+  "Pins, Axles & Connectors": [
+    "Technic, Pin",
+    "Technic, Axle",
+    "Technic, Connector",
+    "Technic, Link"
+  ],
+  "Gears, Steering & Mechanical": [
+    "Technic, Gear",
+    "Technic, Disk",
+    "Technic, Steering",
+    "Technic, Shock Absorber",
+    "Motor, Non-Electric",
+    "Turntable",
+    "Spring",
+    "Conveyor",
+    "Crane"
+  ],
+  "Panels & Flex Cables": [
+    "Technic, Panel",
+    "Technic, Panel, Decorated",
+    "Technic, Flex Cable",
+    "Technic, Decorated"
+  ]
+}

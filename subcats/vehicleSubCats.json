@@ -1,0 +1,32 @@
+{
+  "sortType": "subcategories",
+  "Wheels, Tires & Treads": [
+    "Wheel",
+    "Wheel & Tire Assembly",
+    "Wheel, Accessory",
+    "Wheel, Tire & Tread",
+    "Riding Cycle"
+  ],
+  "Vehicle Bases & Mudguards": [
+    "Vehicle",
+    "Vehicle, Base",
+    "Vehicle, Mudguard",
+    "Vehicle, Mudguard, Decorated",
+    "Propeller"
+  ],
+  "Trains, Tracks & Monorail": [
+    "Train",
+    "Train, Track",
+    "Track System",
+    "Monorail",
+    "Town Plan"
+  ],
+  "Scale Vehicles": [
+    "HO 1:87 Vehicles"
+  ],
+  "Boats & Aircraft": [
+    "Boat",
+    "Aircraft",
+    "Aircraft, Decorated"
+  ]
+}

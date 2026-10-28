@@ -1,0 +1,20 @@
+{
+  "sortType": "subcategories",
+  "Plants & Foliage": [
+    "Plant",
+    "Plant, Tree",
+    "DUPLO, Plant"
+  ],
+  "Animals & Dinosaurs": [
+    "Animal, Land",
+    "Animal, Water",
+    "Animal, Air",
+    "Animal, Dinosaur",
+    "Animal, Accessory",
+    "DUPLO, Animal"
+  ],
+  "Animal Body Parts": [
+    "Animal, Body Part",
+    "Animal, Body Part, Decorated"
+  ]
+}

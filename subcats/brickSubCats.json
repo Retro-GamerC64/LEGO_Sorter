@@ -1,0 +1,24 @@
+{
+  "sortType": "subcategories",
+  "Standard Bricks": [
+    "Brick",
+    "Brick, Decorated"
+  ],
+  "Modified Bricks": [
+    "Brick, Modified",
+    "Brick, Modified, Decorated"
+  ],
+  "Round Bricks & Cylinders": [
+    "Brick, Round",
+    "Brick, Round, Decorated",
+    "Cylinder",
+    "Cylinder, Decorated"
+  ],
+  "Promotional & Special Bricks": [
+    "Brick, Braille",
+    "Brick, Promotional",
+    "DUPLO, Brick",
+    "DUPLO, Brick, Decorated",
+    "DUPLO, Brick, Promotional"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "sortType": "subcategories",
+  "Standard Plates": [
+    "Plate",
+    "Plate, Decorated"
+  ],
+  "Modified Plates": [
+    "Plate, Modified",
+    "Plate, Modified, Decorated"
+  ],
+  "Round Plates": [
+    "Plate, Round",
+    "Plate, Round, Decorated"
+  ],
+  "Baseplates & DUPLO Plates": [
+    "Baseplate",
+    "Baseplate, Raised",
+    "Baseplate, Road",
+    "DUPLO, Baseplate",
+    "DUPLO, Plate"
+  ],
+  "categoryOverrides": {
+    "79194": "Plate, Modified"
+  }
+}

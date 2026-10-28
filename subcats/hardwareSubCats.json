@@ -1,0 +1,37 @@
+{
+  "sortType": "subcategories",
+  "Containers & Boxes": [
+    "Container",
+    "Container, Decorated"
+  ],
+  "Electric, Motors & Power": [
+    "Electric",
+    "Electric, Battery Box",
+    "Electric, Light & Sound",
+    "Electric, Motor",
+    "Electric, Programmable",
+    "Electric, Train",
+    "Electric, Wire & Connector",
+    "Electronics"
+  ],
+  "Hinges & Turntables": [
+    "Hinge",
+    "Hinge, Decorated"
+  ],
+  "Bars, Hoses, Hooks & Mechanical": [
+    "Bar",
+    "Chain",
+    "Hook",
+    "Hose",
+    "Hose, Pneumatic 4mm D.",
+    "Hose, Ribbed 7mm D.",
+    "Hose, Rigid 3mm D.",
+    "Hose, Soft 3mm D.",
+    "Hose, Soft Axle",
+    "Tap",
+    "Magnet",
+    "Pneumatic",
+    "String & Net",
+    "String Reel & Winch"
+  ]
+}

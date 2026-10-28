@@ -1,0 +1,26 @@
+{
+  "sortType": "subcategories",
+  "Standard & Inverted Slopes": [
+    "Slope",
+    "Slope, Decorated",
+    "Slope, Inverted",
+    "Slope, Inverted, Decorated"
+  ],
+  "Curved Slopes": [
+    "Slope, Curved",
+    "Slope, Curved, Decorated",
+    "Slope, Curved, Inverted",
+    "Slope, Curved, Inverted, Decorated"
+  ],
+  "Arches & Roofs": [
+    "Arch",
+    "Arch, Decorated",
+    "Roof"
+  ],
+  "Wedges & Wedge Plates": [
+    "Wedge",
+    "Wedge, Decorated",
+    "Wedge, Plate",
+    "Wedge, Plate, Decorated"
+  ]
+}

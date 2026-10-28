@@ -1,0 +1,16 @@
+{
+  "sortType": "subcategories",
+  "Standard Tiles": [
+    "Tile",
+    "Tile, Decorated"
+  ],
+  "Modified Tiles": [
+    "Tile, Modified",
+    "Tile, Promotional",
+    "Tile, Modified, Decorated"
+  ],
+  "Round Tiles": [
+    "Tile, Round",
+    "Tile, Round, Decorated"
+  ]
+}

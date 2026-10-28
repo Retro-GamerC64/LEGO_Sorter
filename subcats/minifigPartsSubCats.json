@@ -1,0 +1,46 @@
+{
+  "sortType": "subcategories",
+  "Minifigure Heads": [
+    "Minifigure, Head",
+    "Minifigure, Head, Modified"
+  ],
+  "Minifigure Torsos": [
+    "Minifigure, Torso",
+    "Minifigure, Torso Assembly",
+    "Minifigure, Torso Assembly, Decor."
+  ],
+  "Minifigure Legs": [
+    "Minifigure, Legs",
+    "Minifigure, Legs, Decorated",
+    "Minifigure, Legs, Modified",
+    "Minifigure, Legs, Modified, Decorated"
+  ],
+  "Headgear, Hair & Masks": [
+    "Minifigure, Headgear",
+    "Minifigure, Headgear Accessory",
+    "Minifigure, Hair",
+    "BIONICLE, Kanohi Mask"
+  ],
+  "Accessories, Weapons & Gear": [
+    "Minifigure, Body Wear",
+    "Minifigure, Body Part",
+    "Minifigure, Utensil",
+    "Minifigure, Utensil, Decorated",
+    "Minifigure, Weapon",
+    "Minifigure, Shield"
+  ],
+  "Mini-Dolls & Other Figures": [
+    "Mini Doll, Head",
+    "Mini Doll, Torso",
+    "Mini Doll, Legs",
+    "Mini Doll, Hair",
+    "Mini Doll, Body Part",
+    "Mini Doll, Body Wear",
+    "Mini Doll, Utensil",
+    "Micro Doll, Body Part",
+    "Large Figure Part",
+    "Belville, Figure Accessory",
+    "Scala, Figure Accessory",
+    "Technic, Figure Accessory"
+  ]
+}

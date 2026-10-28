@@ -1,0 +1,25 @@
+{
+  "sortType": "subcategories",
+  "Windows & Glass": [
+    "Window",
+    "Window, Decorated",
+    "Window, Glass & Shutter",
+    "Window, Glass & Shutter, Decorated",
+    "Modulex, Window"
+  ],
+  "Doors & Frames": [
+    "Door",
+    "Door, Decorated",
+    "Door, Frame",
+    "Garage"
+  ],
+  "Windscreens & Cockpits": [
+    "Windscreen",
+    "Windscreen, Decorated",
+    "Cockpit"
+  ],
+  "Panels": [
+    "Panel",
+    "Panel, Decorated"
+  ]
+}

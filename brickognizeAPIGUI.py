@@ -13,7 +13,7 @@ import PartCategorize as PC
 from pathlib import Path
 from cameraTesting import camera
 from databaseHandler import PartDatabase
-
+from hardwareInterface import hardwareInterfaceHandler as HI
 
 def ask_choice(id1, name1, id2, name2):
     btn1.config(text=f"{id1}: {name1}")
@@ -58,7 +58,6 @@ def idBrick (img):
         partTypes.append(i['type'])
         partCats.append(i['category'])
         partConfidences.append(i['score'])
-    print (partCats)
     if len(partIDs)==0:
             return None
     if max(partConfidences) < 0.5:
@@ -70,7 +69,6 @@ def idBrick (img):
     #determine if within a percentage, if so, ask which one to use
     if len(partIDs) > 1:
         highestConfidence = max(partConfidences)
-        print(highestConfidence)
         secondHighConf = float(heapq.nlargest(2,partConfidences)[1])
         diff = abs(highestConfidence - secondHighConf) / highestConfidence
         firstIndex = partConfidences.index(highestConfidence)
@@ -163,6 +161,7 @@ if __name__ == "__main__":
     cam.displayThread.start()
     database = PartDatabase()
 
+    hardwareInter = HI()
     
     run_flag = tk.BooleanVar(value=False)
     tk.Button(root, text="Start", command=lambda: run_flag.set(True)).grid(row=0, column=2, padx=5)
@@ -192,7 +191,7 @@ if __name__ == "__main__":
         
 
 
-        print (result)
+        #print (result)
         if result != None and lastResult == None:
             time.sleep(0.25)
             cameraImage = cam.grabImage()
@@ -215,10 +214,11 @@ if __name__ == "__main__":
 
             with open(selected_json_path, "r", encoding="utf-8") as cats:
                 binNum = PC.categorize(result, cats)
-            print("Bin: "+ str(binNum))
+            
             results.append(result)
             print(result)
             print("")
+            hardwareInter.sortBin(binNum)
             database.addPart(result)
 
             current_label.config(text=f"{result[0]}, {result[4][1]}\n{result[1]}")

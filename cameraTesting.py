@@ -11,7 +11,6 @@ import colorDetect as Color
 import PartCategorize as PC
 from pathlib import Path
 from cv2 import *
-
 import cv2
 import threading
 
@@ -45,16 +44,13 @@ class camera:
             cv2.waitKey(1)
         cv2.destroyWindow("Camera")
 
-
-
     def grabImage(self):
         with self.lock:
             if self.latestFrame is None:
                 raise RuntimeError("No camera frame is available yet.")
             frame = self.latestFrame.copy()
 
-        return Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
-    
+        return Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)) 
     
     def close(self):
         self.stopped.set()

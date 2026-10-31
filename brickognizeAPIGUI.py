@@ -162,6 +162,8 @@ if __name__ == "__main__":
     database = PartDatabase()
 
     hardwareInter = HI()
+    hardwareInter.movementThread.start()
+    
     
     run_flag = tk.BooleanVar(value=False)
     tk.Button(root, text="Start", command=lambda: run_flag.set(True)).grid(row=0, column=2, padx=5)
